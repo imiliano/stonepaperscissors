@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style.css  -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- spinner.css  -->
+    <link rel="stylesheet" href="/css/spinner.css">
+    <!-- bootstrap.css  -->
+    <link rel="stylesheet" href="/bootstrap/bootstrap css/bootstrap.min.css">
+    <title>Stone Paper Scissors 1.1</title>
+</head>
+<body class="bg-dark text-secondary text-center">
+    <header class="my-3">
+        <h1>Stone Paper Scissors 1.1</h1>
+    </header>
+    <main>
+
+        <div class="container">
+            
+            <p class="m-2 btn btn-outline-info text-capitalize fw-bold fs-3 button-js-stone stone">Stone</p>
+            <p class="m-2 btn btn-outline-info text-capitalize fw-bold fs-3 button-js-paper paper">Paper</p>
+            <p class="m-2 btn btn-outline-info text-capitalize fw-bold fs-3 button-js-scissors scissors">Scissors</p>
+            
+            <p class="bg-success text-light my-1 text-capitalize fw-bold fs-4 hidden p-ganador">*** You w1n! ***</p>
+            <p class="bg-danger text-dark my-1 text-capitalize fw-bold fs-4 hidden p-perdedor">You lost the game...</p>
+            <p class="bg-info text-dark my-1 text-capitalize fw-bold fs-4 hidden p-empate">It's a tie!</p>
+                
+            <div class="row m-3 divPlayers">
+                <div class="div-js-result col-md-6 my-1">
+                    <p>Player</p>
+                </div>
+                <div class="div-js-result-machine col-md-6">
+                    <p>Machine</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spinner hidden">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+
+    </main>
+
+    <!-- app.js  -->
+    <script type="module" src="/javascript/app.js"></script>
+    <!-- bootstrap.js  -->
+    <script src="/bootstrap/bootstrap js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
