@@ -1,2 +1,5 @@
 # stonepaperscissors
-Juego creado con Javascript y estilizado con Bootstrap.
+Clásico juego de piedra, papel o tijera.
+
+* Lógica -> Javascript
+* Estilos -> Bootstrap
